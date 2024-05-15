@@ -24,15 +24,15 @@ import io
 
 import ee
 from google.api_core import exceptions, retry
-import google.auth
+import google. auth
 import numpy as np
 from numpy.lib.recfunctions import structured_to_unstructured
 import requests
 
 # Constants.
 SCALE = 10000  # meters per pixel
-INPUT_HOUR_DELTAS = [-4, -2, 0]
-OUTPUT_HOUR_DELTAS = [2, 6]
+INPUT_HOUR_DELTAS = [-6,-4, -2, 0]
+OUTPUT_HOUR_DELTAS = [2, 6, 8]
 WINDOW = timedelta(days=1)
 
 # Authenticate and initialize Earth Engine with the default credentials.

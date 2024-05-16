@@ -32,7 +32,7 @@ import requests
 # Constants.
 SCALE = 10000  # meters per pixel
 INPUT_HOUR_DELTAS = [-10, -8, -6,-4, -2, 0]
-OUTPUT_HOUR_DELTAS = [2, 6, 8, 10, 12, 14]
+OUTPUT_HOUR_DELTAS = [2, 6, 8, 10, 12, 14, 16]
 WINDOW = timedelta(days=1)
 
 # Authenticate and initialize Earth Engine with the default credentials.
